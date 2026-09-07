@@ -26,6 +26,7 @@ public class WebSecurityConfig {
 
     private  final  String[] publicUrl = {"/",
             "/global-search/**",
+            "/health",
             "/register",
             "/register/**",
             "/about",
